@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/welcome"/>
+<style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+<item name="android:windowBackground">@color/white</item>
+<item name="android:background">@color/white</item>
+<item name="android:drawableBottom">@color/actionbar_title_color</item>
+<item name="android:textSize">@dimen/actionbar_text_size</item>
+<item name="android:textColor">@color/black</item>    
+</style>
+</menu>
